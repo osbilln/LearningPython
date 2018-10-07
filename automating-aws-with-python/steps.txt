@@ -1,0 +1,7 @@
+pip3.7 install boto3
+pipenv --three
+pip3 install pipenv
+pip3 install -d ipython
+pipenv run ipython
+import boto3
+boto3.Session(profile_name='pythonAutomation')
