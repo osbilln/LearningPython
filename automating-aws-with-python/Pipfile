@@ -8,12 +8,14 @@ name = "pypi"
 ipython = "*"
 click = "*"
 pathlib = "*"
+setuptools = "*"
 
 [dev-packages]
 pycodestyle = "*"
 pydocstyle = "*"
 pylink = "*"
 pylint = "*"
+ipython = "*"
 
 [requires]
 python_version = "3.7"
